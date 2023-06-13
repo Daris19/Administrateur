@@ -1,0 +1,37 @@
+.table-wrapper {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  table thead th {
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    font-weight: bold;
+  }
+  
+  table tbody tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  table tbody td {
+    padding: 8px;
+  }
+  
+  /* Animation */
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tbody tr:hover {
+    background-color: #e1e1e1;
+    transition: all 0.2s ease-in-out;
+  }
+  
